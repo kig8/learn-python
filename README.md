@@ -14,4 +14,5 @@ A kurzus oldalán minden infó fent van. A tananyag 10 részere van bontva (~16 
 - Verziókezelés - Git, Github (`git commands`)
 - CLI használat - GitBash (`bash commands`)
 - IDE kezelés - VSCode
+- Type-writing: gépró tanfolyam [Typingclub](https://www.typingclub.com/)
 - (bővülhet)
