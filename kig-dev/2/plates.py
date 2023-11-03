@@ -26,23 +26,17 @@ def is_length(s, min=2, max=6):
 
 
 def is_num_used_correctly(s):
-    i = 0
-    result = False
+    examined_list = s[2:]
 
-    for l in s[2:]:
-        if l.isdigit():
-            if i == 0:
-                if l == "0" or not s[-1].isdigit():
-                    result = False
-                    break
-                i += 1
-            result = True
-        elif s[2:].isalpha():
-            result = True
-        elif not l.isdigit() and i > 0:
-            result = False
-
-    return result
+    if examined_list.isalpha():
+        return True
+    else:
+        for i in range(len(examined_list)):
+            if examined_list[i].isdigit():
+                if examined_list[i] != "0" and examined_list[i:].isdigit():
+                    return True
+                else:
+                    return False
 
 
 def not_allowed_chars(s):
