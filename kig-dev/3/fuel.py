@@ -1,6 +1,6 @@
 def main():
     result = get_fraction("Fraction: ")
-    print(result)
+    print(fuel_load(result))
 
 
 def get_fraction(text):
@@ -17,7 +17,7 @@ def get_fraction(text):
         except (ValueError, ZeroDivisionError):
             pass
 
-    return fuel_load(fraction)
+    return fraction
 
 
 def fuel_load(fraction):

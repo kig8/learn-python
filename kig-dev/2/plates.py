@@ -33,11 +33,14 @@ def is_num_used_correctly(s):
         if l.isdigit():
             if i == 0:
                 if l == "0" or not s[-1].isdigit():
-                    return False
+                    result = False
+                    break
                 i += 1
             result = True
+        elif s[2:].isalpha():
+            result = True
         elif not l.isdigit() and i > 0:
-            return False
+            result = False
 
     return result
 
