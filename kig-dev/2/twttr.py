@@ -1,7 +1,7 @@
 input_v = input("Input: ")
 vowels = ["a", "e", "u", "i", "o"]
 
-# print("".join([l for l in input_v if l not in vowels]))
+# print("".join([l for l in input_v if l not in vowels])) --> List comprehension
 print("Output: ", end="")
 
 for l in input_v:

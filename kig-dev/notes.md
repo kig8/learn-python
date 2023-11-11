@@ -27,3 +27,11 @@
 - scope refers -> 16:00
 - side effect -> 31:00
 - break < return -> 33:10
+
+## 4. Libraries
+
+- import something as something2 - yes, you can
+
+## 5. Unit Tests
+
+- boilerplate code
