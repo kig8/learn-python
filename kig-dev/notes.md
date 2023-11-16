@@ -35,3 +35,8 @@
 ## 5. Unit Tests
 
 - boilerplate code
+
+## 6. File I/O
+
+- lambda function -> anonymus function | Immediately Invoked Function Expression  (IIFE)
+- Stack, fullstack
