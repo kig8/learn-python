@@ -2,7 +2,7 @@ def main():
     greeting = input("Greeting: ").strip()
     print(f"${value(greeting)}")
 
-
+# This gets the value as int
 def value(greeting):
     is_start_with_h = greeting.lower().startswith("h")
     is_start_with_hello = greeting.lower().startswith("hello")
