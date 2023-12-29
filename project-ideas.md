@@ -3,3 +3,6 @@
 - Discord bot:
   - personal entrance sound
 - Goofy voicemodded songs
+- Language teaching app
+  - personalized GoogleTranslater history
+  - AI generated samples

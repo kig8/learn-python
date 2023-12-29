@@ -3,6 +3,7 @@ import pytest
 
 basic_arg = ["lines.py"]
 
+
 def test_cehck_args():
     with pytest.raises(SystemExit) as ex_info:
         check_args([*basic_arg])
