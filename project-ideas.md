@@ -6,3 +6,5 @@
 - Language teaching app
   - personalized GoogleTranslater history
   - AI generated samples
+- Campfire tales
+  - AI powered
