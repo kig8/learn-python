@@ -11,9 +11,10 @@ def main():
 
 
 def convert(s):
-    pattern = r"\d+"
-    if matches := re.findall(pattern, s):
-        return matches
+    pattern = r"[1-2]?[0-9]:[0-5][0-9]"
+    if matches := re.search(pattern, s):
+        # Check the correct ante meridiem (AM) and post meridiem (PM) format
+        return matches[0]
 
 
 if __name__ == "__main__":
