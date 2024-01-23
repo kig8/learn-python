@@ -1,0 +1,47 @@
+month = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+] 
+
+
+while True:
+    l = input("Dates: ").replace("/","-").replace("," , "-").replace(" ", "-")
+
+
+    try:
+
+        x , y, z = l.split("-")
+        y = int(y)
+        z = int(z)
+
+        if x in month and z >= 1:
+            index = month.index(x) + 1
+            print(f"{z}-{index:02}-{y:02}")
+            break
+        else:
+            x = int(x)
+            if 1 <= x <= 12  and  1 <= y <= 31 and z >= 1:
+                print(f"{z}-{x:02}-{y:02}")
+                break
+        # else:
+        #     print("mivan")
+        #     break
+       
+      
+    except ValueError:  
+       pass
+  
+
+     
+    
+        
