@@ -8,3 +8,4 @@
   - AI generated samples
 - Campfire tales
   - AI powered
+  - Draft link: [Excalidraw](https://excalidraw.com/#json=CJDDVOTEx1mNpTdTOFKB6,5ehjmEKeRBKsGteLL5h5fQ)
